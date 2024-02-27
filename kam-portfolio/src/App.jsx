@@ -1,9 +1,11 @@
-import Heading from "./sections/heading";
+import Header from "./sections/header";
+import Navbar from "./sections/navbar";
 
 function App() {
   return (
     <>
-      <Heading />
+      <Header />
+      <Navbar />
     </>
   );
 }
